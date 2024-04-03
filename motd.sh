@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MOTD_FILE="/etc/motd"
-NEW_MESSAGE="Hello Word"
+NEW_MESSAGE="Hello World"
 
 if [ -f "$MOTD_FILE" ]; then
     echo "$NEW_MESSAGE" > "$MOTD_FILE"
